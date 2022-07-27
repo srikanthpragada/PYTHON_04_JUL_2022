@@ -1,4 +1,10 @@
 class Account:
+    minbal = 10000
+
+    @staticmethod
+    def getminbal():
+        return Account.minbal
+
     # Constructor
     def __init__(self, acno, ahname):
         # Object Attributes
@@ -14,7 +20,10 @@ class Account:
         self.balance += amount
 
     def withdraw(self, amount):
-        self.balance -= amount
+        if self.balance - Account.minbal >= amount:
+            self.balance -= amount
+        else:
+            raise ValueError("Insufficient funds!")
 
 
 a1 = Account(1, "Larry")
