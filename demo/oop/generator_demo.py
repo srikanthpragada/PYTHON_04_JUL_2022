@@ -1,4 +1,4 @@
-def squares():   # Generator 
+def squares():   # Generator
     for n in range(1, 6):
         yield n * n
 
