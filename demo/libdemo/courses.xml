@@ -1,0 +1,17 @@
+<courses>
+    <course>
+        <title>Python</title>
+        <duration>36 Sessions</duration>
+        <fee>5000</fee>
+    </course>
+    <course>
+        <title>Data Science</title>
+        <duration>36 Sessions</duration>
+        <fee>6000</fee>
+    </course>
+     <course>
+        <title>Java SE</title>
+        <duration>36 Sessions</duration>
+        <fee>5000</fee>
+    </course>
+</courses>
