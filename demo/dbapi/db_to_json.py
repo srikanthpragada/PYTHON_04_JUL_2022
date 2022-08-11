@@ -25,5 +25,5 @@ con.close()
 
 # Write to file
 f = open("employees.json", "wt")
-json.dump(employees, f)
+json.dump(employees, f)   # write list[dict] to json file
 f.close()
